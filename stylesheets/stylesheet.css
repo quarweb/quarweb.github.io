@@ -34,10 +34,6 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
-.table {
-  font: smaller;
-}
-
 .dark {
   background: #CCC;
 }
@@ -188,7 +184,8 @@ a {
   width: 100%;
   overflow: auto;
   word-break: normal;
-  word-break: keep-all; }
+  word-break: keep-all;
+  font: smaller; }
   .main-content table th {
     font-weight: bold; }
   .main-content table th, .main-content table td {
